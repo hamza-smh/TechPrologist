@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hamza-smh.github.io/techprologist",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
@@ -14,8 +15,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
-    "sass": "^1.57.1",
     "react-slick": "^0.29.0",
+    "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "react-router-dom": "^6.9.0"
   }
 }
