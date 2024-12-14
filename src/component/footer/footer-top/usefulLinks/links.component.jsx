@@ -55,7 +55,7 @@ export const useful2=
 export const data = [{
 
         icon: Location,
-        info: "Chicago, USA "
+        info: "5284 Central Ave, Fremont, CA 94536"
     },
     {
 
