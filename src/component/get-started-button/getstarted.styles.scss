@@ -1,0 +1,65 @@
+$light-color: #f8f8f8;
+$theme :rgb(55, 81, 126);
+$red : #CE9C17;
+$hotRed: #bd8802;
+
+.button{
+    border-radius: 25px;
+    width : 130px;
+    height: fit-content;
+    padding: 10px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition-duration: 0.2s;
+    border: 2px solid $red;
+    transition-duration: 0.4s;  
+
+    
+
+    &.transparent {
+        background-color: #fff;
+        color: $red;
+
+    &:hover {
+      background-color: $red;
+      color:$light-color;
+
+    }
+  }
+
+
+
+    &.solid {
+      background-color: $red;
+      color: $light-color;
+
+    &:hover {
+      background-color: $hotRed;
+      color:$light-color;
+    }
+  }
+
+
+  &.inverted {
+    background-color: transparent;
+    color: $light-color;
+    
+
+    &:hover {
+      background-color: $hotRed ;
+      color: white;
+    }
+  }
+
+  &.normal{
+    background-color: transparent;
+    color: black;
+    
+    &:hover {
+      background-color: $red ;
+      color: white;
+    }
+    
+  }
+}
+@media (max-width: 991px) {}

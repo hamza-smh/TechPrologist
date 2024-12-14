@@ -1,0 +1,22 @@
+  li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+
+a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+ a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+.rightChevron{
+  color: #47b2e4;
+  font-size: 20px;
+}

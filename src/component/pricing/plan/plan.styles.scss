@@ -1,0 +1,119 @@
+.plan{
+  
+}
+.plan h3{
+  color:#000;
+  font-size: 30px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.plan .price{
+  font-size: 38px;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#000;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #9C9C9C;  
+  
+   span{
+    font-size: 24px;
+    line-height: 28px;
+    color:"#545454";
+    
+   }
+}
+
+.plan .light{
+  position: relative;
+  top:30px;
+  height: 100%;
+}
+
+.plan .dark{
+  background-color: #E63946;
+  height: 100%;
+  position: relative;
+  top:0px;
+  h3,p,h2, ul li, ul li i{
+    color:#fff;
+  };
+  .price{
+    border-bottom: 2px solid #fff;  
+  }
+}
+
+.pricing ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing ul li {
+  padding: 10px 0 10px 30px;
+  position: relative;
+
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.pricing ul i {
+  color: #5AE050;
+  font-size: 18px;
+  font-weight: 900;
+  position: absolute;
+  padding: auto;
+  margin:3px;
+  left: 0;
+  top: 6px;
+}
+
+.pricing ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing ul .na i {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+
+
+
+.plan .box .subscribe{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 992px) {
+  .pricing .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .pricing .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
