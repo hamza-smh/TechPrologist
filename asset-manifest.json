@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TechPrologist/static/css/main.cea7698f.css",
-    "main.js": "/TechPrologist/static/js/main.6ac779a6.js",
-    "static/js/787.28cb0dcd.chunk.js": "/TechPrologist/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/TechPrologist/static/css/main.693ba0b2.css",
+    "main.js": "/TechPrologist/static/js/main.d8f57abb.js",
+    "static/js/787.d4aba7ab.chunk.js": "/TechPrologist/static/js/787.d4aba7ab.chunk.js",
     "static/media/pexels-andrea-piacquadio-845451 1.png": "/TechPrologist/static/media/pexels-andrea-piacquadio-845451 1.77064d5dd64a1e762e73.png",
     "static/media/nabeel.jpg": "/TechPrologist/static/media/nabeel.e8892c33ac04b639fb5b.jpg",
     "static/media/contactUS.png": "/TechPrologist/static/media/contactUS.33b2ba936b460d59e190.png",
@@ -34,12 +34,12 @@
     "static/media/slick.ttf": "/TechPrologist/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/TechPrologist/index.html",
     "static/media/slick.woff": "/TechPrologist/static/media/slick.295183786cd8a1389865.woff",
-    "main.cea7698f.css.map": "/TechPrologist/static/css/main.cea7698f.css.map",
-    "main.6ac779a6.js.map": "/TechPrologist/static/js/main.6ac779a6.js.map",
-    "787.28cb0dcd.chunk.js.map": "/TechPrologist/static/js/787.28cb0dcd.chunk.js.map"
+    "main.693ba0b2.css.map": "/TechPrologist/static/css/main.693ba0b2.css.map",
+    "main.d8f57abb.js.map": "/TechPrologist/static/js/main.d8f57abb.js.map",
+    "787.d4aba7ab.chunk.js.map": "/TechPrologist/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cea7698f.css",
-    "static/js/main.6ac779a6.js"
+    "static/css/main.693ba0b2.css",
+    "static/js/main.d8f57abb.js"
   ]
 }
