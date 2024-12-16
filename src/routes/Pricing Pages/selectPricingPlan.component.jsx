@@ -4,7 +4,7 @@ import SelectPlan from "../../component/pricing/selectPlan/selectPlan";
 
 const SelectPricingPlan =() =>{
     return(
-        <div className="price-bkg" style={{marginTop: "85px",backgroundColor:"#F4F8FB"}}>
+        <div className="price-bkg" style={{marginTop: "85px",backgroundColor:"#000"}}>
             <Navigation2 />
             <Steps />
             <SelectPlan />

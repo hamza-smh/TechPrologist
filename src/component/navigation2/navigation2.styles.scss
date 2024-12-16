@@ -6,11 +6,10 @@
   top:0%;
   width: 100%;
   height: fit-content;
-
+  background-color: #000;
 }
-
 #header.scrolled2 {
-  background-color: #1D3557;
+  //background-color: #C29430;
   
 }
 #header .container{
@@ -23,7 +22,7 @@
 
 #header.header-scrolled2,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #C29430;
 }
 #header .logo2 {
   
@@ -51,6 +50,7 @@
 */
 .navbar2 {
   padding: 0;
+  background:"#000"
   
 }
 .navbar2 ul {

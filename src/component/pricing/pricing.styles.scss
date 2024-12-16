@@ -1,10 +1,11 @@
-// .pricing .container{
-//     display: flex;
-//     flex-direction: column;
-//     height: 100%;
-//     padding: 0px;
-//     justify-content: center;
-// }
+.pricing {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    justify-content: center;
+    //background-color: #000;
+}
 .pricing .row {
   padding-top: 40px;
   height: 100%;
@@ -19,7 +20,7 @@
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
-  box-shadow: 0px 0px 1px black,1px 10px 10px rgb(121, 120, 120) ;
+  box-shadow: 0px 0px 1px black,1px 10px 10px #f5de9f ;
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
@@ -46,6 +47,7 @@
   margin-top: 50px;
   text-align: center;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 .pricing .custom p{
 
@@ -54,7 +56,7 @@
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
-
+  color:#fff;
 }
 .pricing h4 sup {
   font-size: 28px;
@@ -84,14 +86,15 @@
 
 .pricing .container .section-title{
   max-width: 100%;
+  margin-top: 100px;
 
   h2{
-    color:#000;
+    color:#C29430;
     text-transform: none;
     font-weight: 900;
   }
   p{
-    color: rgb(0,0,0,0.65);
+    color: #FFF;
     font-weight: 600;
     font-size: 21px;
     padding: 0px 45px;

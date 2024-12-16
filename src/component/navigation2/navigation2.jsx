@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import logo from "../../brand/AMP Logo-17.png";
-import logo2 from "../../brand/AMP Logo-18.png";
+import logo from "../../brand/Techprologist tranparent-01.png";
+import logo2 from "../../brand/Techprologist tranparent-01.png";
 import "./navigation2.styles.scss";
 import NavLinkBar from "./NavLinkBar/navLinkBar.component";
 import { FaBars } from "react-icons/fa";
@@ -39,7 +39,7 @@ const Navigation2 = () => {
 
   return (
     <>
-      <header id="header" className={`navbar ${scrolled2 ? 'scrolled2' : ''}`}>
+      <header id="header" className={`navbar2 ${scrolled2 ? 'scrolled2' : 'unscrolled'}`}>
         
         <div className="container">
           {

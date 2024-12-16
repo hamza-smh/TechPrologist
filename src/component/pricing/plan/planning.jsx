@@ -31,7 +31,7 @@ export const plan = [{
          about: "Accelerate your growth with our advanced features, including premium support and customization options, designed for businesses ready to scale up.",
          recommended:true,
          price: "2499",
-         buttonType: "transparent",
+         buttonType: "inverted",
          strike: "",
          color:true,
          service:[
